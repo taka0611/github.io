@@ -1,0 +1,90 @@
+<style>
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    height: 190px;
+    text-align: center;
+    background-color: grey;
+}
+.glovalNavigation{
+    height: 150px;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+}
+main{
+    display: flex;
+    min-height: 30vh;
+    margin: 10px 0 10px 0;
+}
+.content{
+    flex: 1;
+    background-color: red;
+    text-align: center;
+    margin-right: 10px;
+}
+.localNavigation{
+    text-align: center;
+    background-color: red;
+    color: #fff;
+    width: 150px;
+}
+.footer{
+    height: 120px;
+    text-align: center;
+    background-color: grey;
+}
+
+</style>
+
+<!doctype html>
+<html>
+<head>
+   <meta charset="utf-8"/>
+   <title>Computer Force</title>
+    <link rel="stylesheet" href="css/multiColumn.css">
+</head>
+
+<body>
+    <header class="header">
+       <img src="https://thumbs.dreamstime.com/z/computer-system-concept-business-logo-template-vector-illustration-abstract-internet-network-online-server-creative-sign-star-130160673.jpg" height="auto" width="30%">
+       </header>
+    
+    <div class="glovalNavigation">
+       <p>link to below</p>
+       <a href="https://www.mcgcomputer.com.au/contact-us">our menu</a>
+       <p></p>
+       <a href="https://www.mcgcomputer.com.au/contact-us">our service</a>   
+    </div>
+    
+    <main>
+        <div class="content">
+            <p></p>
+            <form action="#" method="post">
+	<p>Searching product：<br>
+	<input type="text" name="name"></p>
+	<p><input type="button" value="SEARCH" id="button2"></p>
+</form>
+        </div>
+        <div class="localNavigation">
+            <p>purchases</p>
+            <table border="1" bgcolor="blue">
+            <tr>
+            <th>0 items</th>
+            <th>Cart Sub-total $0</th>
+            </tr>
+            <tr align="center">
+            <td colspan="2">Go to Checkout</td>
+            </tr>
+            </table>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Adress: 100 Main Road, Parramatta, NSW </p>
+        <p>Email: info@computerforce.com.au / Phone: 02 4444 5555</p></p>
+<p>© Australian Copyright Council 2020</p>
+    </footer>
+</body>

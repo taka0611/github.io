@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+div h2{display: block;}
+</style>
+
+
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>Welcome to Computer Force</h1>
+<p>Computer Force is your online expert in all things computing</p>
+<br></br>
+
+
+<div>
+<a href="https://www.mcgcomputer.com.au/contact-us"><h2>Computers</h2>
+<img src="http://zyrex.com/v1/wp-content/uploads/2016/03/PC-studia.jpg" height="100" width="100"></a>
+
+<a href="https://www.mcgcomputer.com.au/contact-us"><h2>Laptops</h2></a>
+<img src="https://images.idgesg.net/images/article/2019/10/aceraspire1-100815704-large.3x2.jpg" height="100" width="100">
+
+<a href="https://www.mcgcomputer.com.au/contact-us"><h2>Monitors</h2></a>
+<img src="https://www.lg.com/in/images/monitors/md05258882/gallery/24M38H_Mobile3_170925.jpg" height="100" width="100">
+
+<a href="https://www.mcgcomputer.com.au/contact-us"><h2>Printing & scanning</h2></a>
+<img src="https://cdn2.expertreviews.co.uk/sites/expertreviews/files/2015/06/front_side_pixma_pro-100s_0.jpg" height="100" width="100">
+
+<a href="https://www.mcgcomputer.com.au/contact-us"><h2>Softwear</h2></a>
+<img src="https://www.ssec.wisc.edu/wordpress/wp-content/uploads/2017/02/software-keyboard-code-1024x570.jpg" height="100" width="100">
+
+<a href="https://www.mcgcomputer.com.au/contact-us"><h2>Tablets</h2></a>
+<img src="https://www.datarecovery.co.nz/wp-content/uploads/2017/11/data-recovery-tablet-phone.jpg" height="100" width="100">
+</div>
+
+</body>
+</html>
